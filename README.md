@@ -1,5 +1,7 @@
 # ⚛️ Lista de Tarefa feita em React ⚛️
 
+Este projeto foi feito com o intuito de praticar os meus conhecimentos em React.
+
 ## Para rodar o projeto:
 
 1. Clone este repositório para a sua máquina local
