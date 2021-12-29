@@ -2,7 +2,14 @@
 
 ## Para rodar o projeto:
 
-1. Item 1
-2. Item 2
-3. Item 3
+1. Clone este repositório para a sua máquina local
+2. Em um terminal abra o local do projeto e execute o comando:
+
+    * cd Todo-List-React
+    * npm install (para rodar esse comando é necessário já ter o node instalado)
+    
+3. Para rodar o projeto execute o comando:
+
+    * npm start
+
 
