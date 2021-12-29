@@ -1,10 +1,22 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { NoteContext } from '../context/Todo'
 
 
 function List() {
 
     const [text, setText] = useContext(NoteContext)
+
+    useEffect(()=>{
+
+        setText(JSON.parse(localStorage.getItem("text"))); 
+       
+    }, [])
+
+
+    useEffect(()=>{
+
+        localStorage.setItem("text", JSON.stringify(text))
+    }, [text])
 
     function changeState(id) {
 
